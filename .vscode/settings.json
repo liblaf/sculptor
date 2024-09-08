@@ -1,0 +1,7 @@
+{
+  "files.exclude": {
+    "**/.venv": true,
+    "**/__pycache__": true
+  },
+  "python.analysis.diagnosticMode": "workspace"
+}

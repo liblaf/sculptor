@@ -1,0 +1,14 @@
+{
+  "words": [
+    "einops",
+    "liblaf",
+    "numpy",
+    "pycache",
+    "pyvista",
+    "trimesh",
+    "ubelt",
+    "venv"
+  ],
+  "ignorePaths": ["**/*-lock.*", "**/*.lock*", "**/.cspell.json"],
+  "allowCompoundWords": true
+}
