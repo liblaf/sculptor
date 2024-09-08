@@ -84,6 +84,9 @@ torch==1.13.1
 torchvision==0.14.1
 trimesh==3.6.18
 typing-extensions==4.7.1
+    # via kiwisolver
+    # via platformdirs
+    # via pyvista
     # via torch
     # via torchvision
 ubelt==1.3.6
