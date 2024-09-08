@@ -18,6 +18,8 @@ jobs:
           cache-dependency-path: |-
             requirements-dev.lock
             requirements.lock
+      - name: Install Dependencies
+        run: pip install --requirement requirements-dev.lock --requirement requirements.lock
       - name: Export Template Mesh
         run: |-
           mkdir --parents --verbose template/
