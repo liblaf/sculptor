@@ -8,7 +8,7 @@ dependencies = [
   "pyvista>=0.38.6",
   "torch>=1.13.1",
   "torchvision>=0.14.1",
-  "trimesh==3.6.18",
+  "trimesh==4.4.9",
   "ubelt>=1.3.6",
 ]
 description = "Add your description here"
