@@ -1,0 +1,13 @@
+# -*- mode: yaml; -*-
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+INHERIT: .config/copier/mkdocs.yaml
+site_name: "sculptor"
+site_description: TODO
+
+plugins:
+  mkdocstrings:
+    handlers:
+      python:
+        inventories:
+          - https://docs.python.org/3/objects.inv
