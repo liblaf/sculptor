@@ -101,7 +101,7 @@ packages = ["src/liblaf/"]
 source = "vcs"
 
 [tool.pixi.dependencies]
-python = "3.12.*"
+python = "3.13.*"
 pytorch-gpu = ">=2.6.0,<3"
 torchvision = ">=0.21.0,<0.22"
 
