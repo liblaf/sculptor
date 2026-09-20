@@ -103,7 +103,7 @@ source = "vcs"
 [tool.pixi.dependencies]
 python = "3.12.*"
 pytorch-gpu = ">=2.6.0,<3"
-torchvision = ">=0.21.0,<0.22"
+torchvision = ">=0.28,<0.29"
 
 [tool.pixi.environments]
 default = { features = ["build", "dev", "docs", "test"] }
