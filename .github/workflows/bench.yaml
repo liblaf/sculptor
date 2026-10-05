@@ -57,7 +57,7 @@ jobs:
       - name: Setup Python
         uses: liblaf/actions/setup-python@dist
       - name: Install Mise
-        uses: jdx/mise-action@v3
+        uses: jdx/mise-action@2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca # v5
       - name: Bench
         uses: CodSpeedHQ/action@v4
         with:
