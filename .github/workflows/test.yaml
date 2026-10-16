@@ -63,7 +63,7 @@ jobs:
       - name: Setup Python
         uses: liblaf/actions/setup-python@dist
       - name: Install Mise
-        uses: jdx/mise-action@v3
+        uses: jdx/mise-action@9b200bcecbfd6303e69a4a261b2e09e3757440a7 # v5
       - name: Test
         run: mise run test
         env:
