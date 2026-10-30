@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v5
       - id: build
         name: Build and Inspect a Python Package
-        uses: hynek/build-and-inspect-python-package@v2
+        uses: hynek/build-and-inspect-python-package@67230f7b8410ae0052b39c1efc89d89fff43ff10 # v3.0.2
         with:
           attest-build-provenance-github: true
 
