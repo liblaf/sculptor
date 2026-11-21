@@ -59,7 +59,7 @@ jobs:
       - name: Install Mise
         uses: jdx/mise-action@v3
       - name: Bench
-        uses: CodSpeedHQ/action@v4
+        uses: CodSpeedHQ/action@b1f28b5eccf7cb5bfe6a2a89cb3053eb67f1150c # v5
         with:
           run: mise run bench
           mode: instrumentation
